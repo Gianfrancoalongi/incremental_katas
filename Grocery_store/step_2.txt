@@ -1,0 +1,42 @@
+Mr.Bean.Counter approaches you 
+- "Great job with the ROS files! You know what, I think we can start collecting 
+   more interesting information of these sales if we do some post processing on 
+   the ROS files.
+
+   It would be nice if we could categorize the items to be able to spot trends 
+   in which type of categories our customers are most interested in.
+
+   I would like you to enrich the ROS files with a new field, containing the
+   category, in order to categorize the items, I have supplied you with a list 
+   here containing the items and their categories.
+
+   After that you program has categorized the ROS, I would like it to output
+   the total amount of money for each category, together with the grand total
+   kind of like this
+
+   wheat and pasta: 10
+   fruit: 20
+   dairy: 40
+   meat: 30
+   total: 100
+  ".
+
+
+
+--------------------------------------------------------------------------------
+bread, wheat and pasta
+eggs, animalic
+milk, dairy
+coca cola, sodas
+chicken, meat
+beef, meat
+carrots, greens
+apples, fruit
+butter, dairy
+cheese, dairy
+bacon, meat
+juice, drinks
+water, drinks
+twixies, candy
+tomatoes, greens
+bananas, fruit 

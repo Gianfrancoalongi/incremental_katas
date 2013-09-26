@@ -1,0 +1,33 @@
+Welcome to the Grocery store, we have some pretty nice cash registers which have an
+interface to a ROM containing daily sale info, through which we can collect the sales 
+reports from all the tills at the end of the day. You see, there is this script which 
+connects to the registers and reads the daily transactions, generating a 
+Record Of Sales (ROS) which is a file containing an item name, quantity sold of this 
+item, and the total price paid for quantity amount of item name.
+
+We collect all of these ROS's and email them for manuall processing by the accountant,
+Mr Bean.C.Ounter. However, we will team you up with Mr Bean, so you can facilitate
+his job a bit, as we plan to open 30 new Grocery stores.
+
+Your first task is to write a program that reads ROS files and generates the grand
+total income for each ROS file.
+
+Thus, the contents of one example ROS file can be found under the dashed line below
+--------------------------------------------------------------------------------
+bread, 1, 2
+12-pack of eggs, 1, 2
+milk (1L), 4, 8
+coca cola (33cl), 10, 10
+chicken clubs (frozen), 1, 4
+carrots, 4, 1
+apples (red, 1Kg bag), 1, 2
+butter (500 g), 3, 6
+cheese (1Kg), 1, 7
+bacon ("tasty" brand, 3 pack), 2, 7
+orange juice (1L), 2, 3
+cheese (gouda, 1Kg), 1, 5
+bottled water (1.5L), 5, 5
+twixies (1 whole box, 3 rows, 5 per row), 1, 20
+sirloin (100g), 1, 30
+tomatoes, 12, 3
+bananas, 3, 1
