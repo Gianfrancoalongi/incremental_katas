@@ -1,0 +1,13 @@
+Mr E.Vil approaches you.
+- "Another solid delivery with the list of blacklisted words.
+   All our tests passed and performance looked ok.
+
+   Next, we should be able to match with other competitors out
+   in the field. A very popular feature is to replace the whole
+   word which the blacklisted word is a prefix of.
+
+   Thus, if we have blacklisted 'friend', the sentence, 
+     You are so friendly!
+   Would become
+     You are so XXXXXXXXX
+  "
