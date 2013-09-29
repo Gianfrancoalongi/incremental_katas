@@ -1,0 +1,13 @@
+The first delivery went well, and your product owner will join you later today.
+Later that day.
+Mr E.Vil enters the room.
+- "The delivery proved to be solid and now we need to support the ability of
+   blacklisting several words.
+   It could be a very long list of words"
+--------------------------------------------------------------------------------
+Thus, if nice, pony, sun, light, fun, happy, funny, joy, and others are 
+blacklisted words, the sentence 
+     "Such a nice day with a bright sun, makes me happy"
+becomes
+    "Such a XXXX day with a bright XXX, makes me XXXXX"
+
