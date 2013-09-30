@@ -1,0 +1,33 @@
+Mr E.Vil enters the room.
+- "This project is going well!
+   The Vice Precident - M.U.Haha is really pleased 
+   with the results.
+
+   Next, we have a great market waiting to pay us well,
+   if we can give them the ability to replace unwanted
+   words by other words.
+
+   For example - assume the following replacements are
+   defined
+
+    bad -> ungood    
+    better -> gooder 
+    objection -> thoughtcrime
+    agree -> crimestop
+
+   Thus, the following sentence 
+
+     'Objection is bad, a better thing to do, is to agree.'
+
+   becomes
+
+    'Thoughtcrime is ungood, a gooder thing to do, is to crimestop.'
+  
+   can you add this functionality?
+   "
+
+You get going, but with a nagging feeling that something
+bad will come of this in the long run.
+           
+
+   
