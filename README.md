@@ -2,7 +2,7 @@ incremental_katas
 =================
 
 Incremental Katas are katas that change incrementally over time. 
-Each one is based on a root kata.txt description, and has 9 possible additions,
+Each one is based on a root kata.txt description, and has 10 possible additions,
 each one increment in a file with a numbered name such as step_{2,3,4,5,6,7,8,9,10}.txt.
 
 You start of by reading kata.txt and completing it (using TDD of course), then go onto step_2.txt,
