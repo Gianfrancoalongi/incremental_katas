@@ -1,0 +1,24 @@
+The text based combat engine works great!
+It is being used at colleges all over the country where they have some 
+very basic programming courses. The students can focus on the graphics parts, 
+which give visually interesting results!
+
+One of the colleges reports a heavy usage and would like to inquire for extensions.
+A new feature to be added which they would like, would be: Damage ranges.
+
+The idea of a damage range is that a weapon has a lower damage, and an upper
+damage. The damage the weapon generates is uniformly random in the range.
+
+For example, the battle for the given combat.rpg
+--------------------------------------------------------------------------------
+'Wizard Of the Toast', 1, 10, Cheese, 1,10
+'Dumperman', 2, 4, Garbage, 3
+
+And the result.rpg may look as the following
+--------------------------------------------------------------------------------
+1,'Wizard Of the Toast','Dumperman',Cheese,1,10,3
+2,'Wizard Of the Toast','Dumperman',Cheese,1,10,2
+2,'Dumperman','Wizard Of the Toast',Garbage,3,7,2
+3,'Wizard Of the Toast','Dumperman',Cheese,8,7,0
+4,'Dumperman',Dead
+'Wizard Of the Toast'
