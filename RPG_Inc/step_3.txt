@@ -1,0 +1,33 @@
+The new extension was a hit!
+As this new engine is gaining in popularity, due to the simplicity and ability
+to be interfaced with from any other programming environment.
+
+As we opened up for the high school to request for features, we have now received
+several requests, but the one the most schools are requesting is the ability
+to equip the fighters with different types of armor.
+
+Our lead developer Ada Love determined that the armor system should be like an 
+'extra layer of health' which 'eats up' the damage until the armor is 'broken'.
+
+This to avoid that we change how the weapons work at the moment. She also sent
+an example combat.rpg which is shows how the armor is added at the end of the 
+combatant information. The armor is 'Leather Jacket' with an armor of 10
+
+--------------------------------------------------------------------------------
+'Bloody Mary', 2, 2, Drinking Glass, (1,3), 'Leather Jacket', 10
+'The evil one',1, 5, Magic missile, (1,20)
+
+The example result.rpg which she supplied looks the following
+--------------------------------------------------------------------------------
+1,'The evil one','Bloody Mary','Magic Missile',6,(4,2),5
+2,'Bloody Mary','The evil one','Drinking Glass',2,(4,2),3
+3,'The evil one','Bloody Mary','Magic Missile',4,(0,2),3
+4,'Bloody Mary','The evil one','Drinking Glass',3,(0,2),0
+4,'The evil one','Bloody Mary','Magic Missile',1,(0,1),0
+5,'The evil one',Dead
+'Bloody Mary'
+
+Thus, we can see that 'Bloody Mary' seems to have a total of 12 health, divided
+into two parts, the first part is the armor, and the second part is the original
+health when the combat starts. Even though the initial health is 2, the armor of 
+10 gives a total effective health of 12.
