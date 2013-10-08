@@ -1,0 +1,43 @@
+Have you seen the demo game some high schoolers put together using our combat 
+engine as the combat calculator? It's on youtube, and it's awesome!
+They did all the graphics and just flow the data through to our engine, and get
+back a time sequence, which they then just animate and put sounds to.
+You should check it out!
+
+This is going really well, and now they are requesting more advanced weapon systems
+for the combatants. It shall be possible to specify a magic property of the weapon
+by the index of the magic property.
+
+   INDEX | PROPERTY 
+   -----------------------------------------------------------------------
+   1     | Life steal, attacker gains life equal to damage done
+   2     | Seconded, weapon does double damage every second attack
+   3     | Swapper, weapon is swapped with enemy weapon when combat starts
+
+The property is represented in the combat.rpg file in the following way, 
+--------------------------------------------------------------------------------
+'Conan the Barber', 2, 10, ('Bastard Sword',1), 10
+
+If the weapon has no magic property, it is represented as usual with the damage
+--------------------------------------------------------------------------------
+'Conan the Barber', 2, 10, 'Bastard Sword', 10
+
+If the weapon has a damage range, this is also represented. Thus swapper with 
+damage range 0 - 1 is as follows
+--------------------------------------------------------------------------------
+'Conan the Barber', 2, 10, ('Rotten rat',3), (0,1)
+
+Some additional explanations for the different magic properties.
+
+1. Life steal - the combatant can never gain more life than the original life
+   when the combat started.
+
+3. When combat starts, the weapons are swapped.
+   If A has weapon ('Knife',3) and B has weapon 'Burnt Toast', then
+   when combat starts, they engage with A having 'Burnt Toast' and B having
+   ('Knife',3).
+   If both players have Swapper on their weapon - the effect is that they
+   retain their weapons.
+
+
+
