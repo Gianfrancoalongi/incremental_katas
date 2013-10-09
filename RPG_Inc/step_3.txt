@@ -31,3 +31,4 @@ Thus, we can see that 'Bloody Mary' seems to have a total of 12 health, divided
 into two parts, the first part is the armor, and the second part is the original
 health when the combat starts. Even though the initial health is 2, the armor of 
 10 gives a total effective health of 12.
+

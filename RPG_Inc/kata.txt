@@ -50,3 +50,4 @@ N,NOTHING
 
 In the result.rpg file, where N is the time tick.
 
+

@@ -19,3 +19,4 @@ the log in result.rpg should then look like this
 The added critical displays that the hit was a critical hit!
 Thus, the graphics can display this with a nice animation without doing any 
 extra calculations.
+

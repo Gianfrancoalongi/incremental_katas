@@ -22,3 +22,4 @@ And the result.rpg may look as the following
 3,'Wizard Of the Toast','Dumperman','Cheese',8,7,0
 4,'Dumperman',Dead
 'Wizard Of the Toast'
+
