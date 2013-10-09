@@ -1,0 +1,21 @@
+We are currently starting a trial for the usage of this engine together with our
+own graphics enginges. One of the devs from the Graphics teams suggested the 
+following extension. Critical Hit!
+
+When the graphics engine is to render the combat, the graphics team would like
+to show some fancy graphics when a weapon does maximum damage, when it has a
+damage range.
+
+Thus, given the following combat.rpg 
+--------------------------------------------------------------------------------
+'The Woolerine', 1, 10, 'Sweater', (1,10)
+'The mildly interesting Hulk', 3, 10, 'Fists', 10
+
+Assuming 'The Woolerine' does 10 damage with his 'Sweater' in the second tick,
+the log in result.rpg should then look like this
+--------------------------------------------------------------------------------
+2,'The Woolerine','The mildly interesting Hulk',10,10,0,critical
+
+The added critical displays that the hit was a critical hit!
+Thus, the graphics can display this with a nice animation without doing any 
+extra calculations.

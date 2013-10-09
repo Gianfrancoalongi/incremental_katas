@@ -20,8 +20,8 @@ output result of the combat is called result.rpg
 
 One example combat.rpg file can be seen below the line 
 --------------------------------------------------------------------------------
-'Mark the Fister', 4, 8, Iron Fist, 4
-'John the Bagger', 1, 7, Small Bag, 1
+'Mark the Fister', 4, 8, 'Iron Fist', 4
+'John the Bagger', 1, 7, 'Small Bag', 1
 
 The output result.rpg can be seen below the line
 --------------------------------------------------------------------------------
