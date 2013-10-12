@@ -1,0 +1,60 @@
+Good morning!
+Yeah, all is good, did you sleep well?
+I saw you online on skype at 2am, what are you doing up that late?
+Really?
+Cool, I didn't know you where coding some ADA95 on your spare time, you should
+demo some next week! Fringe languages are the breath mints of the intellect,
+it's good with some breaks from the norm.
+
+Okay, the Otaku's in Japan are really happy, and the market division says that 
+what everyone is asking for is the ability to play with more than one robot!
+
+So, what is suggested is the following.
+
+1. Up to 6 robots should be able to play , the starting position of the n:th robot, 
+   is the (2*n)-1:th tile on the bottom row, from the right corner.
+   Thus, Robot X starts on tile Y from the bottom right corner.
+   
+    1 | 1
+    2 | 3
+    3 | 5  
+    4 | 7 
+    5 | 9 
+    6 | 11
+
+   The following image shows the start positions of the robots.
+
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]
+   [ ][6][ ][5][ ][4][ ][3][ ][2][ ][1]
+
+   The slave...interns need a way to differentiate the different robots,
+   this is actually important!
+  
+2. The amount of robots is always passed to the program as an argument.
+   For 1 player, a 1 is passed, and one commands.txt file will be generated.
+   The commands.txt file will now always be named X_commands.txt, where
+   X is the index of the robot it is for.
+   Thus, invoking the program with 2, it will generate two files
+
+    1_commands.txt
+    2_commands.txt
+
+   When passing the command files to the program, it should again be invoked
+   with 2, and the two files.
+   Each command file will then controll each robot.
+
+3. Robots can not move beyond obstacles.
+   If a robot drives in a direction, and a robot is in the way, 
+   the blocking robot will essentially prevent that particular action
+   from moving the robot forward/backward.
+--------------------------------------------------------------------------------
