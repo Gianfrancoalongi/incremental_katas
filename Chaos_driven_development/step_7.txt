@@ -1,0 +1,61 @@
+The cogs where a hit!
+People love it!
+They add a new dimension to the game where you have to build large "card houses" 
+mentally and keep track of your robot in a new way.
+
+We want to introduce the conveyor belts as well, 
+but a simpler version without corners which make the robot turn direction.
+
+The conveyor belts go in any of the four cardinal directions, and cause the robot
+to move one step in the direction of the belt if the robot is on it.
+
+This is performed after the robot has performed it's action.
+
+For the sake of an example, let's assume part of our board looks like this.
+
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][^][ ]
+[ ][ ][^][ ]
+[ ][E][^][ ]
+
+The ^ corresponds to a conveyor belt part which moves North on each step.
+If the robot takes the following command: DF 1 
+the states for this would be
+
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][^][ ]
+[ ][ ][^][ ]
+[ ][E][^][ ]
+
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][^][ ]
+[ ][ ][E][ ]
+[ ][ ][^][ ]
+
+likewise, the cogs and conveyors can interact on the same turn.
+Assume it would be the following start position instead.
+
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][C][ ]
+[ ][E][^][ ]
+
+where C corresponds to a counter clockwise rotating cog, with the
+same command DF 1, the states would be
+
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][C][ ]
+[ ][E][^][ ]
+
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][N][ ]
+[ ][ ][^][ ]
+
