@@ -60,3 +60,4 @@ So, what is suggested is the following.
 4. There is still only one states.txt generated, since this file contains
    the state changes of the whole game.
 --------------------------------------------------------------------------------
+ 

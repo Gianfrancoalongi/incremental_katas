@@ -44,3 +44,4 @@ the states for this would be
 
 Cogs are to be placed randomly on the board, but few of them, much less than
 walls, but still at least 1 or 2.
+ 
