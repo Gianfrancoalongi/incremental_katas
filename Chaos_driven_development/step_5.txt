@@ -1,0 +1,25 @@
+Last week was epic!
+But, you know what, my weekend was even more epic!
+I went to see Transmorphers at a friends home, and we combined it with a drinking
+game. You put a moustache on the screen, and every time someone is 'wearing' the 
+moustache, you drink. So, one moustache per person playing, it was a necessary
+thing to help that movie.
+
+Anyway. 
+The visualizations are great, and we are ready to add on some more stuff.
+What we want now, is board elements. For this sprint, we'll work on Walls and
+Pits.
+
+1. Walls are immovable object on the playfield, randomly placed, which can not 
+   be moved. But, they are not allowed to be placed on the start-row of the
+   robots.
+   A robot can not drive through a wall.
+   We choose whatever way we wish to represent the walls.
+
+2. Pits are black holes which a robot can drive into if it is not carefully
+   programmed.
+   If the robot drives into the pit, it is "dead" and can not take any more 
+   actions. It will not respond to commands and can not play.
+
+
+--------------------------------------------------------------------------------
