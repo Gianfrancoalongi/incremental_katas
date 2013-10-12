@@ -3,10 +3,9 @@ Yeah, all is good, did you sleep well?
 I saw you online on skype at 2am, what are you doing up that late?
 Really?
 Cool, I didn't know you where coding some ADA95 on your spare time, you should
-demo some next week! Fringe languages are the breath mints of the intellect,
-it's good with some breaks from the norm.
+demo some next week! Fringe languages are the breath mints of the intellect!
 
-Okay, the Otaku's in Japan are really happy, and the market division says that 
+Okay, the Otakus in Japan are really happy, and the market division says that 
 what everyone is asking for is the ability to play with more than one robot!
 
 So, what is suggested is the following.
@@ -57,4 +56,7 @@ So, what is suggested is the following.
    If a robot drives in a direction, and a robot is in the way, 
    the blocking robot will essentially prevent that particular action
    from moving the robot forward/backward.
+
+4. There is still only one states.txt generated, since this file contains
+   the state changes of the whole game.
 --------------------------------------------------------------------------------
