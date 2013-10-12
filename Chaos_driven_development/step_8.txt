@@ -1,0 +1,21 @@
+High Brass storms into the room:
+  God damn it!
+  How could you NOT have added the ability to play more than one round?
+  The Otakus in Japan are all complaining that the game is reset after each run!
+  THE GAME IS WORTHLESS!
+  HOW COULD YOU NOT ADD THIS SIMPLE THING!
+
+Team lead: Oh, wow, well, this has always been a POC, a bare minimum skeleton,
+  and we thought we would be told when it's not a POC any more. 
+  Actually, let's take the discussion outside.
+
+*High brass and team lead take the conversation outside*
+
+Team lead: Ok, team, we'll make the following simple change.
+ If there is a file called last_state.txt, it is the start position for the current
+ N_commands.txt files, and it there is no such file, it is generated, containing
+ the last state of the states.txt
+
+This keeps state between each invocation of the program.
+Let's do this!
+
