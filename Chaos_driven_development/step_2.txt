@@ -1,0 +1,51 @@
+Hi!
+Had a good weekend? 
+I knew you would be a great addition to the team, we did some nice stuff there,
+with the TDD and the Fitnesse tests. I liked it!
+
+The POC was a success, the slav..interns managed to visualize our stuff on android
+and iOS, we had nice demo! A pity you couldn't be there : (
+Next time, we should check the demo date and make sure no one is being pre-booked
+for other stuff.
+
+Anyway, for the next release, we should focus on the functionality with the most
+value. The PO says it would be if we add the two following extensions. 
+
+1. A new robot command 
+
+   UT - U Turn (a 180 degree rotation)
+
+2. Variable Forward steps of 1, 2 and 3, which replaces the old DF command by
+   three new commands
+
+   DF 1 - Drive Forward One Step 
+   DF 2 - Drive Forward Two Steps
+   DF 3 - Drive Forward Three Steps
+
+A possible commands.txt file could then contain the following
+--------------------------------------------------------------------------------
+DF 1
+TL
+DF 2
+
+and, given a board size of 3 x 3 and a starting position in the lower right
+corner, as well as facing north, the states.txt would then contain
+--------------------------------------------------------------------------------
+[ ][ ][ ]
+[ ][ ][ ]
+[ ][ ][N]
+
+[ ][ ][ ]
+[ ][ ][N]
+[ ][ ][ ]
+
+[ ][ ][ ]
+[ ][ ][W]
+[ ][ ][ ]
+
+[ ][ ][ ]
+[W][ ][ ]
+[ ][ ][ ]
+
+
+Do you think we can finish this in one day?
