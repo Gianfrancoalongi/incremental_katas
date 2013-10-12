@@ -1,0 +1,46 @@
+Good job on the pits and walls, they are nicely rendered in the apps.
+But, what we want now, is the interactive board elements that are more dyanmic.
+The cogs!
+
+A cog can be Clockwise or Counterlclockwise rotating, meaning that if the robot
+ends up on a cog after a command has been performed, the robot will then be rotated
+as the cog rotates.
+
+For the sake of an example, let's assume part of our board looks like this
+
+[ ][ ][ ][ ]
+[ ][ ][6][ ]
+[ ][ ][ ][ ]
+[ ][ ][N][ ]
+[ ][ ][ ][ ]
+
+The N corresponds to the robot facing north, and the 6 corresponds to a clockwise
+rotating cog.
+
+If the robot takes the following commands from 1_commands.txt
+--------------------------------------------------------------------------------
+DF 2
+DF 1
+
+the states for this would be 
+
+[ ][ ][ ][ ]
+[ ][ ][6][ ]
+[ ][ ][ ][ ]
+[ ][ ][N][ ]
+[ ][ ][ ][ ]
+
+[ ][ ][ ][ ]
+[ ][ ][E][ ]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+
+[ ][ ][ ][ ]
+[ ][ ][6][E]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+[ ][ ][ ][ ]
+
+Cogs are to be placed randomly on the board, but few of them, much less than
+walls, but still at least 1 or 2.
