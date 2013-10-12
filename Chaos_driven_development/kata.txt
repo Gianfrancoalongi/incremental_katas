@@ -1,0 +1,56 @@
+Hi there, welcome to the Chaos Driven Development team!
+
+We are developing a digital port of a board game where you program robots, and 
+our our first delivery is a proof of concept to show the high brass a minimal
+POC they can play with.
+
+As we have some sla...interns doing some overti....long days, we can use them to 
+do graphics development for any device. We will just give them a game state 
+representation through a text file, and then they will visualize it for us.
+
+The bare bones of the POC is simple. 
+
+1. One robot, that is heading in one of the four cardinal directions, East, West, 
+   North or South. 
+
+2. The robot reacts to commands, which are given in sequence. 
+   The commands are
+   
+    DF - Drive Forward 1 Step
+    DB - Drive Backward 1 Step
+    TL - Turn Left 90 degrees
+    TR - Turn Right 90 degrees
+
+3. For every command the robot reacts to, the game is put into a new game state.
+
+The input to our program is a text file called commands.txt 
+One such example file can be seen below
+--------------------------------------------------------------------------------
+DF
+TR
+DB
+TL
+DB
+
+The output file called states.txt would then contain 6 visualizations of the 
+game state, the initial state + all 5 resulting states from the commands.
+If we assume the game board is 4 x 4, and the robot starts in the lower right
+corner, facing North - the example states.txt file would be
+--------------------------------------------------------------------------------
+[ ][ ]
+[ ][N]
+
+[ ][N]
+[ ][ ]
+
+[ ][E]
+[ ][ ]
+
+[E][ ]
+[ ][ ]
+
+[N][ ]
+[ ][ ]
+
+[ ][ ]
+[N][ ]
