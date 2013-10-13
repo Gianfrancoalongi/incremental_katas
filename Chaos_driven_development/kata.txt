@@ -1,7 +1,7 @@
 Hi there, welcome to the Chaos Driven Development team!
 
 We are developing a digital port of a board game where you program robots, and 
-our our first delivery is a proof of concept to show the high brass a minimal
+our first delivery is a proof of concept to show the high brass a minimal
 POC they can play with.
 
 As we have some sla...interns doing some overti....long days, we can use them to 
