@@ -1,0 +1,21 @@
+For the next task, you will extend the functionality by adding the ability to 
+replace any 3 by a 5 if not immediately succeeded by 5 and any 4 by a 3 if not 
+immediately preceeded by 5. When replacing the 3's and 4's, you may not replace
+more than one 3 or 4 in a go without having replaced one instance of the other
+in between. When four 3's have been replaced, and three 4's have been replaced.
+No more replacements may occur until a 7 is seen. Once a 7 is seen, the whole
+process is reset and four 3's and three 4's may be replaced again.
+
+As in the examples below
+
+ input: 3,5
+ output: 3,5
+
+ input: 3,15
+ output: 5,15
+
+ input: 5,4
+ output: 5,4
+
+ input: 15,4
+ output: 15,3

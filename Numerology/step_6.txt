@@ -1,0 +1,15 @@
+For the next task, you will collectively treat any coherent unbroken ascending
+sequence of integers, such that the i:th number is one greater than the 
+i-1:th number in the sequence, and put them in an inverted order in relation to 
+the original order as they where presented. This may only be done for coherent 
+and unbroken sequences and no other number may be included if the number does not
+fulfills the above mentioned criteria. This rule has to be applied BEFORE any 
+other rule is applied.
+
+As in the example below
+
+  input: 12,13,14
+  output: 14,13,12
+
+  input: 17,12,13,14,16
+  output: 17,14,13,12,16

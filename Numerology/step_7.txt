@@ -1,0 +1,5 @@
+For the next task, every time a rule is applied, it has to be logged, you may 
+put the log anywher, as long as it is readable and presentable to the user.
+
+It shall be possible to read a log of all replacements and which rule was applied
+after having processed an input sequence.

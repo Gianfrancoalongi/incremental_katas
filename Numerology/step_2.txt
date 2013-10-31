@@ -1,0 +1,12 @@
+For the next task, you will extend the functionality by replacing all 2's
+by an equal amount of ones as the number to the left of the 2, and all 6's by
+an equal amount of 3's as the value of the number which is an equal amount of
+steps to the right of the 6 as the number which is to the immediate left of it.
+
+As in the examples below
+
+ input: 3,2,3,4,5
+ output: 3,1,1,1,3,4,5
+
+ input: 1,6,3,4,5
+ output: 1,3,3,3,3,4,5

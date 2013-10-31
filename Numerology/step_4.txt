@@ -1,0 +1,18 @@
+For the next task , you will extend the functionality by replacing the last
+integer in the input sequence by the lowest next odd number if not already
+odd, when the first number in the input sequence is not even. The mutation of
+the last integer happens after all other rules have been applied, with the 
+basis of the premise from the pristine unmutated version of the first integer
+in the series as it was before any rules where applied to mutate the sequence
+of numbers.
+
+As in the examples below
+
+  input: 1,11,10
+  output: 1,11,9
+
+  input: 1,11,9
+  output: 1,11,9
+
+  input: 12,11,10
+  output: 12,11,10
