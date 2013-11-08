@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+The interplanetary litterary adjustment beureau (ILAB) is the number one text
+adjusting agency that handles spelling corrections, grammatical corrections and
+semantically preserving colloquial expression translation. Over 183 million texts
+per second are adjusted daily in between communicating parties in the whole of 
+the Human Empire.
+
+We are launching a new service which not only corrects simple mistakes, but also 
+handles layout and other visually appealing factors. This service is aimed at
+diplomatic communication and thus has some very special requirements regarding
+localization.
+
+The idea is that the diplomats and other negotiating personell will be able to
+input the text as is, and we format is nicely, adjusting any colloquialisms,
+and cosmetic errors, producing an appealing result without them having to focus
+on anything else but their business.
+
+Diplomatic communication follows the ISO-83923:2242 standard where the message 
+always has the three non-optional FROM/TO/SIGNED headers. After this, the 
+immediate text that follows is the message.
+
+Thus, an example message from The United European Trades Union of Earth to the 
+23rd Mars colony could look like this.
+
+--------------------------------------------------------------------------------
+FROM:The United European Trades Union of Earth
+TO:23rd Mars colony
+SIGNED:President of the Chamber Of Trades
+Greetings.
+Would you be interested in trading Plutonium with us?
+...
+Best regards
+ President of Trades
+
+For the first delivery we will deliver the functionality to ensure that all 
+messages that get processed get the headers rearranged so that the order is 
+guaranteed to be FROM, TO, SIGNED. 
+
+Thus, the following example message would all get the headers rearranged
+so that FROM is the first line, TO is the second line, and SIGNED is the third
+line.
+
+--------------------------------------------------------------------------------
+SIGNED:1st Colony Manager
+TO:President of Earth
+FROM:1st Human Colony on Venus
+...
+
+--------------------------------------------------------------------------------
+TO:President of Earth
+SIGNED:1st Colony Manager
+FROM:1st Human Colony on Venus
+...
+
+--------------------------------------------------------------------------------
+FROM:1st Human Colony on Venus
+SIGNED:1st Colony Manager
+TO:President of Earth
+...
+
+
+
+
+
+
+
+
+
