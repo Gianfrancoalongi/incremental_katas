@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------
+This just in!
+
+In this year of 2244, by decree number 451 from the Royal Academy of 
+Cultural Correctness and Morality, it is not natural and a pure act of defiance 
+against proper form when two lines of text next to each other start with the 
+same two or more words.
+
+This is considered a direct violation against the very basic beliefs upon which
+our Human Empire is built, and has corruptive capabilities, damaging the minds
+of our young.
+
+Please, be a good citizen and report any such violations to your local 
+Correctness and Morality officers.
+
+- "Wow, did you get that?"
+
+- "Yeah, we should probably sell this as a service, guaranteeing that messages
+   passing our system follows decree 451, this way, our clients can just
+   send their messages and feel safe."
+
+- "I will just send a message to the Royal Academy of Cultural Correctness and Moral,
+   to ask if it is enough to just change the syntax of the line, by inserting 
+   an additional space before the next line to make them read different.
+
+ .... 2 hours later ....
+
+- "Bad luck, it is not sufficient.
+   But, it would be sufficient to just add anything in front of it.
+   We could add (ignore this) and just pass it on.
+   What do you think?"
+
+- "I don't know, this would happen to millions of messages every second, whatever
+   we choose, it should be lightweight and not too intrusive, not to mention
+   that it has to be language neutral."
+
+Whatever you choose to implement, the important thing to understand, is that
+the following lines of text are currently in direct violation of decree 451.
+
+"He sent the message to me this morning. Once Alex came in to the office, he told me that
+ he sent the message at 06.00 and not 08.00, as I requested."
+
+
+
+     
+   
+ 
+
+
+

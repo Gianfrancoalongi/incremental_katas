@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 This is a customer specific request from 'MegaHard InStare'. They request that all
-message sent TO them shall be transformed so that the following rule holds.
+messages sent TO them shall be transformed so that the following rule holds.
 
        Each line shall start with a capital letter.
        Each newline after a '.' (period) shall be indented two (2) spaces.

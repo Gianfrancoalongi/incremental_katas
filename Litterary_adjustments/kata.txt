@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-The interplanetary litterary adjustment beureau (ILAB) is the number one text
+The interplanetary literary adjustment bureau (ILAB) is the number one text
 adjusting agency that handles spelling corrections, grammatical corrections and
 semantically preserving colloquial expression translation. Over 183 million texts
 per second are adjusted daily in between communicating parties in the whole of 
@@ -10,8 +10,8 @@ handles layout and other visually appealing factors. This service is aimed at
 diplomatic communication and thus has some very special requirements regarding
 localization.
 
-The idea is that the diplomats and other negotiating personell will be able to
-input the text as is, and we format is nicely, adjusting any colloquialisms,
+The idea is that the diplomats and other negotiating personnel will be able to
+input the text as is, and we format it nicely, adjusting any colloquialisms,
 and cosmetic errors, producing an appealing result without them having to focus
 on anything else but their business.
 
