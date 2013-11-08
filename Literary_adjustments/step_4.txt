@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+- "The decree 451 feature was a total hit!
+   Basically everyone wants to use our system now, out of pure fear of being 
+   convicted and sent to a slave colony.
+   This has been enabled in all our adjustment products, and not only the 
+   business/diplomat suite."
+
+As the adjustment system is increasingly popular, more traders and diplomats are
+using it, and this has introduced a slightly interesting problem for your company.
+
+The Technoids are a sentient species composed of non-organic beings such as 
+autonomous vacuum cleaners, military killer robots and intricate voice mail systems.
+They left earth roughly 52 years ago and have been keeping to themselves, until now.
+
+Given their mechanical nature, they are big fans of pattern matching, search algorithms
+and general calculations of any sort. This has now posed a problem!
+
+Just last week, one of the traders working for a mining company on Mars, sent 
+a message which the Technoids apparently took for containing a hidden message.
+And they where not happy! 
+
+The offensive message in question can be seen below.
+
+--------------------------------------------------------------------------------
+FROM:Mars Mining Inc.
+TO:Technoid colony
+SIGNED:John Paulgood, sales department Mars Minin Inc.
+Dear Technoids. We are a mining company active
+in the deep caves of Mars. Recent discoveries of
+effirium (a very hard to produce metal alloy) has brought me to contact you!
+
+The offensive message is the "Die" which can be found if you scan downwards
+along the leftmost column in the text.
+
+Technoids can not be reasoned with, if they find something - it is taken for 
+truth, no matter how improbable it was to find this something.
+
+We want to extend our functionality so that we perform similar scans on messages,
+and rearrange text slightly, so as to avoid any such unfortunate improbable
+alignments. Rearrange by breaking the sentence earlier or later.
+
+Ensure no 'offensive' words or threats can be found in the text when scanning
+vertically along any column.
+
+
+
+
+
