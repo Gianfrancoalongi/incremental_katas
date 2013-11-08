@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+This is a customer specific request from 'MegaHard InStare'. They request that all
+message sent TO them shall be transformed so that the following rule holds.
+
+       Each line shall start with a capital letter.
+       Each newline after a '.' (period) shall be indented two (2) spaces.
+
+Thus, the following text 
+
+--------------------------------------------------------------------------------
+FROM:Lunix Fun-dation
+TO:Megahard InStare
+SIGNED:Master of Fun-emony
+We have our annual fun-day
+the 24th of November. We 
+hope you can come over.
+This would be most graceful.
+
+would be transformed to 
+--------------------------------------------------------------------------------
+FROM:Lunix Fun-dation
+TO:Megahard InStare
+SIGNED:Master of Fun-emony
+We have our annual fun-day
+The 24th of November. We 
+Hope you can come over.
+  This would be most graceful.
+
+when passing through our message processing unit.
+Please ensure that this works for all TO-texts matching MegaHard InStare, this is
+not to be case sensitive. Thus, megahard instare, Megahard instare etc, shall
+all be considered valid instances matching MegaHard InStare.
