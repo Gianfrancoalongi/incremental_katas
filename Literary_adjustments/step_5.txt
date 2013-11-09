@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+During lunch break, the newsfeed cut in, and a 'Breaking News!' message comes on.
+
+-"Last night, Mars Mining Inc lost a deal worth an estimated 900 billion credits,
+  and might also have worsened the diplomatic tension between the Empire of Man 
+  and the Technoids.
+ 
+  CEO John McDrill has refused to answer questions, but ensures everyone that 
+  Mars Mining Inc. do not have any hostile intensions, and that we will take 
+  more steps to ensure that no unintentional threats are perceived by the  
+  Technoids.
+  
+  John McDrill says 'ILAB licensed their product to us, ensuring that it would 
+  safeguard the communication with the Technoids. Apparently it does not.
+  ."
+
+The news anchor adjusts her papers and the news feed ends.
+
+- "We will have to pay Mars Mining Inc some credits to keep them as our
+   customer, and step up our game to gain their trust again."
+
+Your CEO storms out of the lunch room.
+
+What has happened is that the Technoids aparently also scan messages for diagonal
+words. The CEO of the company has hired a Technoid expert to help the team cover
+all possible corners and Technoid scan sequences.
+
+According to the expert, Technoids scan messages
+
+  1. Vertically
+  2. Horizontally.
+  3. Diagonally downards to the left.
+
+You need to ensure that no bad words occur due to unfortunate alignments 
+in scans of 1 and 3. If bad words occur, you need to correct this by 
+changing alignment as in the previous release.

@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+As more companies and diplomatic ties start to form between the Empire of Man,
+and the Technoids - your company receives the Most Magnificent Morality Medal 
+for great service towards mankind and peace.
+
+However, there are problems related to the rearrangement of text which was
+introduced in the previous releases.
+
+Embassies and the Legal sector are avid users of printed text, and tend to print
+all received communication on 215,9mm by 355,6 mm paper. When printing, they 
+use large fonts, to ensure that no one misreads the message. As a consequence 
+of this, they never write any line that spans more than 75 characters. 
+
+This untold rule, is something that has been observed to be broken, due to our
+program restructuring the text.
+
+For our next release, we have to correct this, and ensure that no line of text
+is more than 75 characters wide. While still delivering the same feature
+capability as before. If the user wrote lines that are more than 75 characters
+wide, we will always ensure that all lines are a maximum of 75 characters wide.
