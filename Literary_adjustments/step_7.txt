@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+No further incidents have occurred during the last week, and the market value for 
+ILAB has skyrocketed. The stock market has great trust that ILABs products are 
+worth the money and that ILAB in general is a solid investment.
+
+- "Okay, as we have taken care of the juiciest low hanging fruit, and totally
+   blown the competition out of the water. I would like us to focus on the 
+   core stuff that is always part of our products."
+
+For this release, you shall add the following manipulations that are expected to
+be found in all ILAB products.
+
+ 1. Ensure capital letter after each period
+ 2. Ensure a leading space immediately after each punctuation character
+ 3. Ensure that punctuation characters are never the first character of a line
+
+
