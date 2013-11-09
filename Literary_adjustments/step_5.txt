@@ -34,3 +34,4 @@ According to the expert, Technoids scan messages
 You need to ensure that no bad words occur due to unfortunate alignments 
 in scans of 1 and 3. If bad words occur, you need to correct this by 
 changing alignment as in the previous release.
+ 

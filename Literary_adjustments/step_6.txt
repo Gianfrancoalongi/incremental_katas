@@ -18,3 +18,4 @@ For our next release, we have to correct this, and ensure that no line of text
 is more than 75 characters wide. While still delivering the same feature
 capability as before. If the user wrote lines that are more than 75 characters
 wide, we will always ensure that all lines are a maximum of 75 characters wide.
+ 

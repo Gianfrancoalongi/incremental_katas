@@ -30,3 +30,4 @@ when passing through our message processing unit.
 Please ensure that this works for all TO-texts matching MegaHard InStare, this is
 not to be case sensitive. Thus, megahard instare, Megahard instare etc, shall
 all be considered valid instances matching MegaHard InStare.
+ 
