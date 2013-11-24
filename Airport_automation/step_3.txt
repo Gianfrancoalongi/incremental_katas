@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+The automatic retraction and extraction of the jetway is working out nicely.
+But, there are some things which we can not control, like the weather. 
+Sometimes the jetway gets stuck when it's really cold outside. 
+
+In these cases, there is an alarm to manual oversight, and they deice the
+jetway joints so that it can move freely again, but first they always put it 
+into the retracted position.
+
+In these circumstances, we need a way for the system to know what state the 
+jetway is in. We will create a new interface for all manual intervention state
+changes. The interface is called A2.
+
+              ______
+             |DMU   |----A1
+             |      |----A2
+             |______|----GS:GPD
+              /  |  \
+             /   |   \
+        GS:APD   |   GS:ASD
+                 |
+                GAU  
+
+
+The A2 interface is a passive one like the A1 interface. It receives a connection
+on the port 50002, and a message. We will start with receiving the 'reset'
+message from the GAU the DMU is connected to. Indicating that the jetway has been
+reset to a retracted state, regardless of what was ongoing.
+
+The GAU will connect across A2 and send 
+    RESET
+the connection will then be closed.
+
+Upon receiving RESET, we will know that the jetway got stuck and a manual reset
+had to be done. 
+
+The third delivery has make the DMU able to deal with this.
+Make sure you speak to the manual oversight crew and let them help us in 
+designing the test cases.
+--------------------------------------------------------------------------------
