@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------
+The basic questionnaire interpreter with the basic qdf grammar is well enough, 
+but there is one annoying thing. It does not skip irrelevant questions.
+
+For example, if someone does answers that they do not own a car, it would not make 
+sense to ask what model they have - they already said they do not own a car.
+
+The qdf grammar can be extended so that we can skip questions given the answer
+of previous questions. The new keyword is skip. The keyword is used together 
+with an equality test inside square brackets. The skip statement is inserted 
+immediately after the dot (.), a new dot is to be placed after the skip statement.
+The statement syntax is as follows.
+
+      [skip if NUMBER was ANSWER]
+
+Actually, now that we think about it, a questionnaire interpreter should probably
+be able to support the following skip syntax
+
+      [skip if NUMBER was ANSWER]
+      [skip if NUMBER was-not ANSWER]
+
+For our previous car example, we would make it more meaningful if we did the
+following.
+--------------------------------------------------------------------------------
+1.'Do you own a car?'
+ 'Yes'
+ 'Yes - several'
+ 'No'
+
+2.[skip if 1 was 'No'].'What model is your car?'
+ 'Volvo'
+ 'Other'
+ 'SAAB'
+ 'I do not own a car'  
+
+An example interpretation could then be
+--------------------------------------------------------------------------------
+Do you own a car?
+ (1) Yes
+ (2) Yes - several
+ (3) No
+
+> 3
+
+What model is your car? - skipped (you answered 'No')
+
+Thank you for filling in this questionnaire!
+
+And the resulting qrf would then look like this
+--------------------------------------------------------------------------------
+1.No
+2.n/a
+
+Extend the qdf interpreter to support the skip syntax using both was and was-not
+comparison. Also inform the user on skipped questions as shown in the example.
