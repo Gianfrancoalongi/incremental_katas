@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+A Questionnaire Description File (*.qdf) is a human readable description of a
+questionnaire. A qdf interpreter (such as you will now write) takes qdfs
+as input and outputs a Questionnaire Result File (*.qrf) named with the date
+the questionnaire was finished, and the ID of the input qdf.
+
+Thus, if 
+
+  car_insurance.qdf 
+
+is the input file to the interpreter, and someone finishes the questionnaire 
+at 13:42 on the 26th of November 2013, the result file would be named
+
+  car_insurance_2013_11_26_1342.qrf
+
+Every line of a qdf starts with a number, a dot, and then the question in single
+quotes; this is the question. The next immediate lines to follow are indented
+one (1) whitespace followed by the possible answer to the questionnaire in single
+quotes. One blank line separates each question.
+
+For example, the car_insurance.qdf could look like this.
+--------------------------------------------------------------------------------
+1.'Do you own a car?'
+ 'Yes'
+ 'Yes - several'
+ 'No'
+
+2.'What model is your car?'
+ 'Volvo'
+ 'Other'
+ 'SAAB'
+ 'I do not own a car'  
+
+
+The questionnaire interpreter displays every question in order as it is to be
+answered, allows the user to choose an answer, and then moves on to the next
+question when an answer is selected. If they try to answer anything else but
+one of the given choices, the interpreter ignores the invalid answer and 
+awaits the correct input.
+
+An example session of the car_insurance.qdf could look like this
+--------------------------------------------------------------------------------
+Do you own a car?
+ (1) Yes
+ (2) Yes - several
+ (3) No
+
+> 1
+
+What model is your car?
+ (1) Volvo
+ (2) SAAB
+ (3) Other
+ (4) I do not own a car
+
+> 3
+
+Thank you for filling in this questionnaire!
+
+
+The resulting qrf would then look like this
+--------------------------------------------------------------------------------
+1.Yes
+2.Other
+
+Now - develop the first drop of the interpreter. It shall be able to read 
+a qdf and question the user for the input as described, as well as producing
+the qrf for the output. 
