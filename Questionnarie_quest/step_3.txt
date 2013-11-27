@@ -1,0 +1,52 @@
+--------------------------------------------------------------------------------
+Skipping questions gives a tiny bit of gloss to the interpreter, but does not make
+it feel truly professional and polished. One thing that can be done to make it go 
+from 'doh' to 'oh' is the ability to go back and adjust previously answered 
+questions. Sometimes, we make mistakes and it is nice to be able to undo them.
+
+Extend the current interpreter so that every question has the added option of 
+going back one step or forward one step (if you have backed to a previously
+visited point). When backing, the previously selected answer is displayed under
+the question.
+
+Remember that all skip rules still apply.
+
+Using the extended car questionnaire, a session could look like this.
+--------------------------------------------------------------------------------
+Do you own a car?
+ (1) Yes
+ (2) Yes - several
+ (3) No
+
+> 1
+
+What model is your car?
+ (1) Volvo
+ (2) SAAB
+ (3) Other
+ (4) I do not own a car
+ (5) Back to question 1
+
+> 5
+
+Do you own a car?
+ ----> You previously answered (1)
+ (1) Yes
+ (2) Yes - several
+ (3) No
+ (4) Back to question 2
+
+> 3
+
+What model is your car? - skipped (you answered 'No')
+
+Thank you for filling in this questionnaire!
+
+The resulting qrf file would then look like this
+--------------------------------------------------------------------------------
+1.No
+2.n/a
+
+Extend the interpreter to allow jumping back and forward to previously answered
+questions. The previous answer shall be displayed. Skip rules shall still be 
+obeyed when moving forward.
