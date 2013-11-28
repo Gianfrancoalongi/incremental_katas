@@ -66,3 +66,4 @@ The resulting qrf would then look like this
 Now - develop the first drop of the interpreter. It shall be able to read 
 a qdf and question the user for the input as described, as well as producing
 the qrf for the output. 
+ 

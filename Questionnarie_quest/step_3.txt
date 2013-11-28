@@ -50,3 +50,4 @@ The resulting qrf file would then look like this
 Extend the interpreter to allow jumping back and forward to previously answered
 questions. The previous answer shall be displayed. Skip rules shall still be 
 obeyed when moving forward.
+ 

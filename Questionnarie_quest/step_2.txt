@@ -53,3 +53,4 @@ And the resulting qrf would then look like this
 
 Extend the qdf interpreter to support the skip syntax using both was and was-not
 comparison. Also inform the user on skipped questions as shown in the example.
+ 
