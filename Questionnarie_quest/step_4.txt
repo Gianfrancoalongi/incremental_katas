@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+It makes sense to maintain the same level of abstraction on the questions in a
+qdf and group things together by area. Being able to adhere to the simple principle 
+of modularity can save a lot of work for those that maintain large sets of qdf.
+
+The next extension is about enabling modularity, that is, to maintain separate
+sets of qdf's and allowing cross-referencing between them. This will be enabled by
+means of the include keyword.
+
+The include syntax will be as follows
+ 
+     include QDF-FILE-NAME
+
+
+Thus, ponder the two qdfs a.qdf
+--------------------------------------------------------------------------------
+1.'Do you have children?'
+ 'Yes'
+ 'No'
+
+2.'Do you have parents who are alive?'
+ 'Yes'
+ 'No'
+
+include ./path/to/b.qdf
+
+
+and b.qdf
+--------------------------------------------------------------------------------
+1.'Do you have any pets?'
+ 'Yes'
+ 'No'
+
+2.'Have you had any pets before?'
+ 'Yes'
+ 'No'
+
+Both files can be interpreted separately, but interpreting a.qdf would execute 
+a.qdf and b.qdf into the same session.
+--------------------------------------------------------------------------------
+Do you have children?
+ (1) Yes
+ (2) No
+
+> 2
+
+Do you have parents who are alive?
+ (1) Yes
+ (2) No
+ (3) Back to question 1
+
+> 1
+
+Do you have any pets?
+ (1) Yes
+ (2) No
+ (3) Back to question 2
+
+> 3
+
+Do you have parents who are alive?
+ ----> You previously answered (1)
+ (1) Yes
+ (2) No
+ (3) Back to question 1
+ (4) Forward to question 3
+
+> 4
+
+Do you have any pets?
+ (1) Yes
+ (2) No
+ (3) Back to question 2
+
+> 2
+
+Have you had any pets before?
+ (1) Yes
+ (2) No
+ (3) Back to question 3
+
+> 1
+
+Thank you for filling in this questionnaire!
+
+The resulting qrf file would be named with a.qdf as the base.
+--------------------------------------------------------------------------------
+1.No
+2.Yes
+3.No
+4.Yes
+
+
+
+
+

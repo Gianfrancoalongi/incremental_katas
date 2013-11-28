@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
 Skipping questions gives a tiny bit of gloss to the interpreter, but does not make
 it feel truly professional and polished. One thing that can be done to make it go 
 from 'doh' to 'oh' is the ability to go back and adjust previously answered 
