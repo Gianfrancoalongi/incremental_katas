@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+The skip syntax is nice to have, but it would be better if it was more uniform
+regarding the use for questions or includes. For this step, we will make the 
+skip block-aware and not only question and include aware.
+
+The syntax for skip will now be
+
+              [skip if NUMBER was ANSWER] { .... }
+
+Thus, this is now the syntax for question skip (several can be skipped in one go)
+--------------------------------------------------------------------------------
+1.'Do you own a car?'
+ 'Yes'
+ 'Yes - several'
+ 'No'
+
+[skip if 1 was 'No']{
+2.'What model is your car?'
+ 'Volvo'
+ 'Other'
+ 'SAAB'
+
+3.'How often do you drive your car?'
+ 'Daily'
+ 'Weekly'
+ 'Less'
+}
+
+
+Thus, this is now the syntax for include skip
+--------------------------------------------------------------------------------
+1.'Do you drink alcohol?'
+ 'Yes'
+ 'No'
+
+[skip if 1 was 'No']{ include ./path/to/b.qdf }
+[skip if 1 was 'Yes']{ include ./path/to/c.qdf }
+
+This more unified syntax will make it easier for people to remember how to skip
+and also gives us more control over skipping blocks.
+
+Ensure this functionality, and remember that it shall still be possible to 
+backtrack and change the course.
+
+
+

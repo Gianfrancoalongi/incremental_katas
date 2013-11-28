@@ -21,8 +21,8 @@ Thus, we can now write the following questionnaires a.qdf
  'Yes'
  'No'
 
-[skip if 1 was 'No'] ./path/to/b.qdf
-[skip if 1 was 'Yes'] ./path/to/c.qdf
+[skip if 1 was 'No'] include ./path/to/b.qdf
+[skip if 1 was 'Yes'] include ./path/to/c.qdf
 
 
 b.qdf
