@@ -1,0 +1,72 @@
+--------------------------------------------------------------------------------
+It would be very nice if we could conditionally include as well. Thus, extending
+the skip functionality for inclusions. The syntax would be similar, but written
+before the include statement.
+
+Thus
+
+   include ./path/to/b.qdf
+
+could be conditionally included as
+
+   [skip if 1 was 'Yes'] include ./path/to/b.qdf
+
+or 
+
+   [skip if 1 was-not 'Yes'] include ./path/to/b.qdf
+
+Thus, we can now write the following questionnaires a.qdf
+--------------------------------------------------------------------------------
+1.'Do you drink alcohol?'
+ 'Yes'
+ 'No'
+
+[skip if 1 was 'No'] ./path/to/b.qdf
+[skip if 1 was 'Yes'] ./path/to/c.qdf
+
+
+b.qdf
+--------------------------------------------------------------------------------
+1.'Which is your favorite beer?'
+ 'McBrewson'
+ 'Tasty'
+ 'Other'
+
+2.'Do you drink wine?'
+ 'Yes'
+ 'No'
+
+and c.qdf
+--------------------------------------------------------------------------------
+1.'Why do you not drink alcohol?'
+ 'Because of religious beliefs'
+ 'Because of family history'
+ 'Because of the price'
+ 'Other reasons'
+
+2.'Would you drink a bit of alcohol if the social setting requires it?'
+ 'Yes'
+ 'No'
+ 'Maybe'
+
+
+Interpreting a.qdf would then allow us to shift the questionnaire into either
+a taste and brand specific questionnaire or a questionnaire regarding the reason
+for not drinking alcohol. As demonstrated by the diagram below.
+
+                            a.qdf
+                             |Q1
+                             | 
+                           N/ \Y
+                           /   \
+                     c.qdf/     \b.qdf
+                       Q2|       |Q2
+                       Q3|       |Q3
+
+The resulting qrf (which depending on date and time) a_2013_12_01_1413.qrf
+will only contain 3 answers, regardless of branch.
+
+Extend the functionality so this is possible, that is, add the syntax support
+for skip'ing includes. Remember that if one would go back during a session, 
+it should be possible to take another branch when the conditional include
+is re-interpreted.
